@@ -1,0 +1,49 @@
+#htmlStyle {background-color:black;height:2000px;}
+#container{position:relative;}
+#divNavigationBar, #logoDiv {position:absolute;}
+#logoDiv{color:#003300;top:0;position:fixed;}
+#divNavigationBar { background-color: rgba(0,0,0,0);height:50px; text-align:center; border:none;top:0;position:fixed;width:100%;margin:0;padding:0;clear:both;transition-duration:0.3s;
+		-webkit-animation: fadein 2s; 
+		-moz-animation: fadein 2s; 
+        -ms-animation: fadein 2s;
+        -o-animation: fadein 2s; 
+        animation: fadein 2s;z-index:1001}
+#activeButton {color:white;text-decoration:none;font-family:Arial; font-size:16px;font-weight:bold;background-color:#003300;
+border:none;height:50px;transition-duration:0.5s;width:100px;}
+#button1 {}
+.navigationButtons {color:white;text-decoration:none;font-family:Arial; font-size:16px;font-weight:bold;background-color:rgba(0,0,0,0);
+border:none;height:50px;transition-duration:0.5s;width:100px;}
+.navigationButtons:hover{color:white; background-color:#003300;}
+.navButtonsCo{color:#003300;text-decoration:none;font-family:Arial; font-size:16px;font-weight:bold;background-color:white;
+border:none;height:50px;transition-duration:0.5s;width:100px;}
+.nsvButtonsCo:hover{color:white; background-color:#003300;}
+#navList {list-style:none;}
+#Jumphere{transition-duration:1.0;}
+#navigationBLinks {text-decoration:none;border:none;padding:none;margin:none;outline:none;float:center;}
+#divIndexPic{background-color:black;text-align:center; border:  1px solid black; margin-bottom:10px; margin-top:100px;}
+#divBottomLinkBar {border: none; margin-left: 10px; margin-right: 10px; margin-top: -20px;}
+#bottomLink {margin-right:5px;color:white;text-decoration:underline;}
+#bottomLink:hover{color:#003300;}
+#bottomTradeMark {margin-top:-20px;}
+#divBottomPic {text-align:center; margin-top:-15px;}
+.arrow {transform:rotate(90deg);display:inline-block;z-index:1000;text-decoration:none;color:#003300;font-size:50px;}
+.arrow:hover{color:#003300;}
+h1, h2, h3, h4, h5, h6 {font-family:Arial;font-weight:bold;}
+h1 {font-size:50px;text-align:center;color:#003300;}
+h2 {font-size:30px;color:white;}
+h3 {font-size: 20px; float:left;}
+h4, h5{font-size:16px;}
+h4, h6{color:white;}
+h5{color:#003300;}
+h6{text-align:center;font-size:14px;}
+a {}
+span {transform: rotate(180deg);display:inline-block;}
+@keyframes fadein {from { opacity: 0; }   to   { opacity: 1; }}
+/* Firefox < 16 */
+@-moz-keyframes fadein {from { opacity: 0; }  to   { opacity: 1; }}
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {from { opacity: 0; }  to   { opacity: 1; }}
+/* Internet Explorer */
+@-ms-keyframes fadein {from { opacity: 0; }  to   { opacity: 1; }}
+/* Opera < 12.1 */
+@-o-keyframes fadein {from { opacity: 0; }  to   { opacity: 1; }}
