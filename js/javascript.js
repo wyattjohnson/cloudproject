@@ -1,4 +1,5 @@
 ﻿$(document).ready(function() {
+	
 $(document).scroll(function() {
 	if($(this).scrollTop() > 600){
 		colorChange();
@@ -33,6 +34,8 @@ function colorChangeBack(){
 	$('button.navigationButtons').css("background-color", "rgba(0,0,0,0)");
 	$('button.navigationButtons').css("color", "white");
 }
+
+
 });
 
 
