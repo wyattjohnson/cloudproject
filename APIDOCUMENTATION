@@ -1,0 +1,13 @@
+DOCUMENTATION
+
+Lambda Function
+readLeaderboard
+	Reads the values saved to the DynamoDB database, and returns them through the API Gateway.
+writeLeaderboard
+	Writes the values to the DynamoDB database passed through the API Gateway.
+	
+API
+ReadWriteAPI
+	Methods
+		GET - Used by the readLeaderboard to retrieve the database values.
+		POST - Used by the writeLeaderboard to write the database values.
